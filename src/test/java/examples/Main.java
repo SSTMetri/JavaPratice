@@ -13,5 +13,16 @@ public class Main {
 	   x++;
 	  }
 	  x++;
+	  
+	  char c='x';
+	  if(Character.isUpperCase(c)) {
+		  System.out.println(c+" Is in uppser case");
+	  } else {
+		  System.out.println(c+" Is in lower case");
+	  }
+	  
+	  
+	  
+	  
 	 }
 	}

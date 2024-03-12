@@ -3,7 +3,7 @@ package asked_Question;
 public class NumberExtractionFromString 
 {
 	public static void main(String[] args) {
-		String string="Learning Java $ ^ 12345678";
+		String string="Learning Java $ 8526 ^ 12345678";
 		String[] str=string.split(" ");
 		for(String s:str) {
 			try {
