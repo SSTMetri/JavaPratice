@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Pattern2Letters 
 {
 	public static void main(String[] args) {
+		/*
+		 * A B C 
+		 * D E F 
+		 * G H I 
+		 */
 		Scanner sc=new Scanner(System.in);
         int n = sc.nextInt();
     	char ch='A';
