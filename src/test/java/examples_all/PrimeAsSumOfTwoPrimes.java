@@ -17,7 +17,7 @@ public class PrimeAsSumOfTwoPrimes
 				}
 			}
 			else {
-				System.out.println("Number is not prime");
+				System.out.println(i+" Number is not prime");
 			}
 		}
 		if(!flag)

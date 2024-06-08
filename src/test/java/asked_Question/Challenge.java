@@ -13,7 +13,7 @@ public class Challenge
 		 Optional.empty(),
 		 Optional.of("Joe")
 		 );
-
+		 
 		 long count = names.filter(Optional::isPresent)
 		 .map(Optional::get)
 		 .filter(name -> name.startsWith("A"))

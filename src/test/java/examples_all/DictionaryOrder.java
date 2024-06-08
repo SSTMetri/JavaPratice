@@ -1,3 +1,4 @@
+
 package examples_all;
 
 public class DictionaryOrder 
@@ -18,33 +19,10 @@ public class DictionaryOrder
 				}
 			}
 		}
-		for(int i=0;i<s.length;i++)
-		{
-			System.out.print(s[i]+" ");
-		}
-		System.out.println();
 		for(String st:s) {
 			System.out.print(st+" ");
 		}
-		System.out.println();
-		String[] st= {"Java","PYTHON","C++","Ruby"};
-		String t="";
-		for(int i=0;i<st.length;i++)
-		{
-			for(int j=i+1;j<st.length;j++)
-			{
-				if(st[i].compareTo(st[j])<1)
-				{
-					t=st[i];
-					st[i]=st[j];
-					st[j]=t;
-				}
-			}
-		}
-		for(int i=0;i<st.length;i++)
-		{
-			System.out.print(st[i]+" , ");
-		}
+		
 		
 	}
 

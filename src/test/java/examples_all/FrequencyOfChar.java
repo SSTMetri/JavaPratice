@@ -24,13 +24,13 @@ public class FrequencyOfChar
 		
 		
 		
-		String s="String";
+		String s="SStringg";
 		String low = s.toLowerCase();
 		char[] a=low.toCharArray();
 		Map m=new TreeMap();
 		for(int i=0;i<a.length;i++)
 		{
-			int c=1;
+			int c=0;
 			for(int j=0;j<a.length;j++)
 			{
 				if(a[i]==a[j])
