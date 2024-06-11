@@ -20,6 +20,11 @@ public class ReverseOnceStr
             	System.out.println(" "+str[i]);
             }
         }
+        
+//        LinkedHashSet&lt;Integer&gt;
+//        hs=new LinkedHashSet&lt;Integer&gt;();
+        
+        
 	}
 
 }
